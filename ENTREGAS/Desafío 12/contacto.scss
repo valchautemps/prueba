@@ -1,0 +1,18 @@
+$white:#FFFF;
+$black:#0000;
+$ancho:100%;
+$colorh1: #D86A7E;
+
+
+body{
+    background-color: $white;
+    header{
+        h1{
+            color: $colorh1;
+        }
+    }
+}
+.marcaFooter{
+    background-color: $black;
+    width: ($ancho);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+      <header>
+              <h1>Contacto</h1>
+      </header>  
+      <main>
+              <form action="">
+                      <fieldset>
+                              <legend>Comunicate con nosotros</legend>
+                              <div>
+                                      <label for="nombre">Nombre</label>
+                                      <input type="text" name="nombre" placeholder="Nombre">
+                                      <br><br>
+                                      <label for="apellido">Apellido</label>
+                                      <input type="text" name="apellido" placeholder="Apellido">
+                                      <br><br>
+                              </div>
+                              <div>
+                                      <label for="email">E-mail</label>
+                                      <input type="email" required>
+                                      <br><br>
+                              </div>
+                              <div>
+                                      <label for="país">Nacionalidad</label>
+                                      <select name="país">
+                                              <option value="argentina">Argentina</option>
+                                              <option value="chile">Chile</option>
+                                              <option value="uruguay">Uruguay</option>
+                                      </select>
+                                      <br><br>
+                              </div>
+                              <div>
+                                      <label for="comentarios">Escribí tu mensaje</label><br>
+                                      <textarea name="Comentario" id="" cols="40" rows="10"></textarea>
+                                      <br><br>
+                              </div>
+                               <div>
+                                      <label for="recibir novedades">Recibir novedades y promociones</label>
+                                      <input type="checkbox" name="Recibir novedades">
+                                      <br><br>
+                              </div>
+                              <div>
+                                      <input type="reset" value="Borrar datos">
+                                      <input type="submit" value="Enviar">
+                                      <br><br>
+                              </div>
+                      </fieldset>
+              </form>
+      </main>
+</body>
+</html>

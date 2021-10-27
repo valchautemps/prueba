@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+h1{
+    color:rosybrown;
+}
+.redessociales{
+    background-color: rgb(0, 0, 0);
+}
+h3{
+    color:white;
+} 
+ul{
+    list-style: none;
+    padding: 0%;
+    margin-left: 10px;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}
